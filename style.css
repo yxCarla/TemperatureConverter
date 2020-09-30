@@ -1,0 +1,243 @@
+@media only screen and (min-width: 811px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        font-family: 'Kreon';
+        text-align: center;
+        font-size: 6.5vh;
+        color: darkcyan;
+    }
+    
+    p {
+        font-family: 'Kreon';
+        font-size: 3vh;
+        color: darkcyan;
+        text-align: center;
+    }
+    
+    #content_box {
+        width: 27vw;
+        height: 40vh;
+        margin: 5vh auto 0 auto;
+        border: 0.5vh solid black;
+    }
+    
+    #option_box {
+        text-align: center;
+        font-family: 'Kreon';
+        font-size: 2.7vh;
+        margin: 2vh auto 0 auto;
+    }
+    
+    #choose {
+        width: fit-content;
+        margin: 2vh auto 0 auto;
+    }
+    
+    #chooseC {
+        background-color: rgb(14, 194, 194);
+        font-family: 'Kreon';
+        font-size: 2.5vh;
+        cursor: pointer;
+    }
+    
+    #chooseC:hover {
+        background-color: rgb(20, 181, 181);
+    }
+    
+    #chooseF {
+        background-color: rgb(14, 194, 194);
+        font-family: 'Kreon';
+        font-size: 2.5vh;
+        cursor: pointer;
+    }
+    
+    #chooseF:hover {
+        background-color: rgb(20, 181, 181);
+    }
+    
+    #temp_input_box {
+        margin: 3vh auto 0 auto;
+        border: none solid black;
+        width: fit-content;
+    }
+    
+    #temp_input {
+        font-family: 'Kreon';
+        font-size: 2.1vh;
+    }
+    
+    #celsius_output {
+        border-bottom: 0.3vh solid black;
+        width: 3.6vw;
+        margin: 3vh auto 0 auto;
+        height: 5vh;
+        text-align: center;
+        padding-top: 1.3vh;
+        font-family: 'Kreon';
+        font-size: 3vh;
+    }
+    
+    #convert_celsius {
+        user-select: none;
+        cursor: pointer;
+        border: 0.3vh solid rgb(14, 194, 194);
+        border-radius: 0.8vw;
+        background-color: rgb(14, 194, 194);
+        width: fit-content;
+        text-align: center;
+        margin: 2vh auto 0 auto;
+        font-family: 'Kreon';
+        font-size: 2.2vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    
+    #fahrenheit_output {
+        border-bottom: 0.3vh solid black;
+        width: 3.6vw;
+        margin: 3vh auto 0 auto;
+        height: 5vh;
+        text-align: center;
+        padding-top: 1.3vh;
+        font-family: 'Kreon';
+        font-size: 3vh;
+    }
+    
+    #convert_fahrenheit {
+        user-select: none;
+        cursor: pointer;
+        border: 0.3vh solid rgb(14, 194, 194);
+        border-radius: 0.8vw;
+        background-color: rgb(14, 194, 194);
+        width: fit-content;
+        text-align: center;
+        margin: 2vh auto 0 auto;
+        font-family: 'Kreon';
+        font-size: 2.2vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        font-family: 'Kreon';
+        text-align: center;
+        font-size: 5.8vh;
+        color: darkcyan;
+    }
+    
+    p {
+        font-family: 'Kreon';
+        font-size: 2.7vh;
+        color: darkcyan;
+        text-align: center;
+    }
+    
+    #content_box {
+        width: 90vw;
+        height: 40vh;
+        margin: 3vh auto 0 auto;
+        border: 0.5vh solid black;
+    }
+    
+    #option_box {
+        text-align: center;
+        font-family: 'Kreon';
+        font-size: 2.5vh;
+        margin: 2vh auto 0 auto;
+    }
+    
+    #choose {
+        width: fit-content;
+        margin: 2vh auto 0 auto;
+    }
+    
+    #chooseC {
+        background-color: rgb(14, 194, 194);
+        font-family: 'Kreon';
+        font-size: 2.5vh;
+        cursor: pointer;
+    }
+    
+    #chooseC:hover {
+        background-color: rgb(20, 181, 181);
+    }
+    
+    #chooseF {
+        background-color: rgb(14, 194, 194);
+        font-family: 'Kreon';
+        font-size: 2.5vh;
+        cursor: pointer;
+    }
+    
+    #chooseF:hover {
+        background-color: rgb(20, 181, 181);
+    }
+    
+    #temp_input_box {
+        margin: 3vh auto 0 auto;
+        border: none solid black;
+        width: fit-content;
+    }
+    
+    #temp_input {
+        font-family: 'Kreon';
+        font-size: 2vh;
+    }
+    
+    #celsius_output {
+        border-bottom: 0.3vh solid black;
+        width: 13vw;
+        margin: 3vh auto 0 auto;
+        height: 5vh;
+        text-align: center;
+        padding-top: 1.3vh;
+        font-family: 'Kreon';
+        font-size: 2.7vh;
+    }
+    
+    #convert_celsius {
+        user-select: none;
+        cursor: pointer;
+        border: 0.3vh solid rgb(14, 194, 194);
+        border-radius: 0.8vw;
+        background-color: rgb(14, 194, 194);
+        width: fit-content;
+        text-align: center;
+        margin: 2vh auto 0 auto;
+        font-family: 'Kreon';
+        font-size: 2.2vh;
+    }
+    
+    #fahrenheit_output {
+        border-bottom: 0.3vh solid black;
+        width: 13vw;
+        margin: 3vh auto 0 auto;
+        height: 5vh;
+        text-align: center;
+        padding-top: 1.3vh;
+        font-family: 'Kreon';
+        font-size: 2.7vh;
+    }
+    
+    #convert_fahrenheit {
+        user-select: none;
+        cursor: pointer;
+        border: 0.3vh solid rgb(14, 194, 194);
+        border-radius: 0.8vw;
+        background-color: rgb(14, 194, 194);
+        width: fit-content;
+        text-align: center;
+        margin: 2vh auto 0 auto;
+        font-family: 'Kreon';
+        font-size: 2.2vh;
+    }
+}

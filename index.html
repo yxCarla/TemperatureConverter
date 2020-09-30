@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Temperature Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A handy temperature converter for Fahrenheit and Celsius">
+        <meta name="author" content="yxCarla">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body onload="hideAll()">
+        <h1>Temperature Converter</h1>
+        <p>Converts Fahrenheit and Celsius Temperatures!</p> 
+        <div id="content_box">
+            <div id="option_box">
+                What are you converting?
+            </div>
+            <div id="choose">
+                <button id="chooseC">F to C</button>
+                <button id="chooseF">C to F</button>
+            </div>
+            <div id="main_box">
+                <div id="temp_input_box">
+                    <input type="number" id="temp_input" value="">
+                </div>
+                <div id="celsius_box">
+                    <div id="celsius_output">
+
+                    </div>
+                    <div id="convert_celsius">
+                        Convert to Celsius
+                    </div>
+                </div>
+                <div id="fahrenheit_box">
+                    <div id="fahrenheit_output">
+                
+                    </div>
+                    <div id="convert_fahrenheit">
+                        Convert to Fahrenheit
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
