@@ -1,243 +1,145 @@
 @media only screen and (min-width: 811px) {
-    * {
-        box-sizing: border-box;
-    }
-    
     h1 {
-        font-family: 'Kreon';
         text-align: center;
-        font-size: 6.5vh;
-        color: darkcyan;
+        color: #50d8da;
+        font-size: 8vh;
+        font-family: 'Economica';
     }
-    
-    p {
-        font-family: 'Kreon';
-        font-size: 3vh;
-        color: darkcyan;
+
+    #info {
         text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Economica';
     }
-    
-    #content_box {
-        width: 27vw;
-        height: 40vh;
-        margin: 5vh auto 0 auto;
-        border: 0.5vh solid black;
+
+    #main {
+        width: fit-content;
+        height: fit-content;
+        margin: 4vh auto 0 auto;
+        background-color: #70f5f7;
     }
-    
-    #option_box {
-        text-align: center;
-        font-family: 'Kreon';
+
+    #choices {
         font-size: 2.7vh;
-        margin: 2vh auto 0 auto;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding: 2vh;
     }
-    
-    #choose {
-        width: fit-content;
-        margin: 2vh auto 0 auto;
-    }
-    
-    #chooseC {
-        background-color: rgb(14, 194, 194);
-        font-family: 'Kreon';
-        font-size: 2.5vh;
+
+    .button {
+        margin-top: 1.4vh;
+        background-color: #50d8da;
+        font-family: 'Source Code Pro';
         cursor: pointer;
-    }
-    
-    #chooseC:hover {
-        background-color: rgb(20, 181, 181);
-    }
-    
-    #chooseF {
-        background-color: rgb(14, 194, 194);
-        font-family: 'Kreon';
-        font-size: 2.5vh;
-        cursor: pointer;
-    }
-    
-    #chooseF:hover {
-        background-color: rgb(20, 181, 181);
-    }
-    
-    #temp_input_box {
-        margin: 3vh auto 0 auto;
-        border: none solid black;
-        width: fit-content;
-    }
-    
-    #temp_input {
-        font-family: 'Kreon';
+        user-select: none;
         font-size: 2.1vh;
+        
     }
-    
-    #celsius_output {
-        border-bottom: 0.3vh solid black;
-        width: 3.6vw;
-        margin: 3vh auto 0 auto;
-        height: 5vh;
-        text-align: center;
-        padding-top: 1.3vh;
-        font-family: 'Kreon';
-        font-size: 3vh;
-    }
-    
-    #convert_celsius {
-        user-select: none;
-        cursor: pointer;
-        border: 0.3vh solid rgb(14, 194, 194);
-        border-radius: 0.8vw;
-        background-color: rgb(14, 194, 194);
+
+    #temp_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
         width: fit-content;
-        text-align: center;
-        margin: 2vh auto 0 auto;
-        font-family: 'Kreon';
-        font-size: 2.2vh;
-        padding-left: 1vw;
-        padding-right: 1vw;
+        padding-bottom: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
-    
-    #fahrenheit_output {
-        border-bottom: 0.3vh solid black;
-        width: 3.6vw;
-        margin: 3vh auto 0 auto;
-        height: 5vh;
-        text-align: center;
-        padding-top: 1.3vh;
-        font-family: 'Kreon';
-        font-size: 3vh;
-    }
-    
-    #convert_fahrenheit {
-        user-select: none;
-        cursor: pointer;
-        border: 0.3vh solid rgb(14, 194, 194);
-        border-radius: 0.8vw;
-        background-color: rgb(14, 194, 194);
+
+    #input_div {
         width: fit-content;
+        margin: 1vh auto 0 auto;
+        
+    }
+
+    .output {
+        font-family: 'Source Code Pro';
+        font-size: 2.3vh;
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 4vh;
+    }
+
+    #footer_info {
+        color: #107883;
+        font-size: 2.3vh;
+        font-family: 'Source Code Pro';
         text-align: center;
-        margin: 2vh auto 0 auto;
-        font-family: 'Kreon';
-        font-size: 2.2vh;
-        padding-left: 1vw;
-        padding-right: 1vw;
+        padding-bottom: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
 
 @media only screen and (max-width: 810px) {
-    * {
-        box-sizing: border-box;
-    }
-    
     h1 {
-        font-family: 'Kreon';
         text-align: center;
-        font-size: 5.8vh;
-        color: darkcyan;
+        color: #50d8da;
+        font-size: 7vh;
+        font-family: 'Economica';
     }
-    
-    p {
-        font-family: 'Kreon';
-        font-size: 2.7vh;
-        color: darkcyan;
+
+    #info {
         text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Economica';
     }
-    
-    #content_box {
-        width: 90vw;
-        height: 40vh;
-        margin: 3vh auto 0 auto;
-        border: 0.5vh solid black;
-    }
-    
-    #option_box {
-        text-align: center;
-        font-family: 'Kreon';
-        font-size: 2.5vh;
-        margin: 2vh auto 0 auto;
-    }
-    
-    #choose {
+
+    #main {
         width: fit-content;
-        margin: 2vh auto 0 auto;
-    }
-    
-    #chooseC {
-        background-color: rgb(14, 194, 194);
-        font-family: 'Kreon';
-        font-size: 2.5vh;
-        cursor: pointer;
-    }
-    
-    #chooseC:hover {
-        background-color: rgb(20, 181, 181);
-    }
-    
-    #chooseF {
-        background-color: rgb(14, 194, 194);
-        font-family: 'Kreon';
-        font-size: 2.5vh;
-        cursor: pointer;
-    }
-    
-    #chooseF:hover {
-        background-color: rgb(20, 181, 181);
-    }
-    
-    #temp_input_box {
+        height: fit-content;
         margin: 3vh auto 0 auto;
-        border: none solid black;
-        width: fit-content;
+        background-color: #70f5f7;
     }
-    
-    #temp_input {
-        font-family: 'Kreon';
-        font-size: 2vh;
-    }
-    
-    #celsius_output {
-        border-bottom: 0.3vh solid black;
-        width: 13vw;
-        margin: 3vh auto 0 auto;
-        height: 5vh;
+
+    #choices {
+        font-size: 2.4vh;
+        font-family: 'Source Code Pro';
         text-align: center;
-        padding-top: 1.3vh;
-        font-family: 'Kreon';
-        font-size: 2.7vh;
+        padding: 2vh;
     }
-    
-    #convert_celsius {
+
+    .button {
+        margin-top: 1.2vh;
+        background-color: #50d8da;
+        font-family: 'Source Code Pro';
+        cursor: pointer;
         user-select: none;
-        cursor: pointer;
-        border: 0.3vh solid rgb(14, 194, 194);
-        border-radius: 0.8vw;
-        background-color: rgb(14, 194, 194);
-        width: fit-content;
-        text-align: center;
-        margin: 2vh auto 0 auto;
-        font-family: 'Kreon';
-        font-size: 2.2vh;
+        font-size: 1.3vh;
     }
-    
-    #fahrenheit_output {
-        border-bottom: 0.3vh solid black;
-        width: 13vw;
-        margin: 3vh auto 0 auto;
-        height: 5vh;
-        text-align: center;
-        padding-top: 1.3vh;
-        font-family: 'Kreon';
-        font-size: 2.7vh;
-    }
-    
-    #convert_fahrenheit {
-        user-select: none;
-        cursor: pointer;
-        border: 0.3vh solid rgb(14, 194, 194);
-        border-radius: 0.8vw;
-        background-color: rgb(14, 194, 194);
+
+    #temp_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
         width: fit-content;
+        padding-bottom: 2vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    #input_div {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+    }
+
+    .output {
+        font-family: 'Source Code Pro';
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 2vh;
+        font-size: 2.4vh;
+    }
+
+    #footer_info {
+        color: #107883;
+        font-size: 2.3vh;
+        font-family: 'Source Code Pro';
         text-align: center;
-        margin: 2vh auto 0 auto;
-        font-family: 'Kreon';
-        font-size: 2.2vh;
+        padding-bottom: 2vh;
     }
 }
